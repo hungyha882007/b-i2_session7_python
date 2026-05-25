@@ -1,3 +1,6 @@
+# transaction.split("-") là sai vì chương trình đang tách theo dấu -, trong khi dữ liệu thật được ngăn cách bằng dấu |.
+# Ngoài ra mã khóa học PYTHON-01 cũng chứa dấu - nên dữ liệu bị cắt sai vị trí.
+# Khi tách sai delimiter, dữ liệu trong parts bị lệch.
 transaction = " nguyEN vAN a | PYTHON-01 | 15000000 | paid"
 
 # xoá khoảng trắng
